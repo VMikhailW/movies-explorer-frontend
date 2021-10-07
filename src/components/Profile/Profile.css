@@ -1,0 +1,162 @@
+.profile {
+  padding: 74px 0 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.profile__info {
+  margin: 123px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__info-element {
+  margin: 0 0 17px;
+  display: flex;
+  padding: 0 0 16px;
+  border-bottom: 1px solid #e8e8e8;
+  justify-content: space-between;
+  width: 410px;
+}
+
+.profile__info-element:last-of-type {
+  margin: 0;
+  border: none;
+}
+
+.profile__text {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.profile__input {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  border: none;
+  text-align: end;
+  padding: 0;
+  width: 100%;
+  outline: none;
+}
+
+.profile__submit-error {
+  margin: 200px auto 0;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FF004C;
+}
+
+.profile__submit-button {
+  margin: 20px auto 0;
+  padding: 15px 0 13px;
+  width: 410px;
+  background-color: #ff6838;
+  border-radius: 3px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.profile__submit-button_disabled {
+  background-color: #a0a0a0;
+}
+
+.profile__submit-button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.profile__submit-button_disabled:hover {
+  cursor: default;
+  opacity: 1;
+}
+
+.profile__edit-button {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin: 220px auto 0;
+  background: none;
+  border: none;
+}
+
+.profile__edit-button:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+.profile__exit-button {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #EE3465;
+  margin: 16px auto 0;
+  background: none;
+  border: none;
+}
+
+.profile__exit-button:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+@media screen and (max-width: 1279px) {
+  .profile {
+    padding: 236px 0 269px;
+  }
+
+  .profile__submit-error {
+    margin: 190px auto 0;
+  }
+
+  .profile__edit-button {
+    margin: 210px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    padding: 40px 0 70px;
+  }
+
+  .profile__info-element {
+    width: 260px;
+  }
+
+  .profile__submit-error {
+    margin: 349px auto 0;
+  }
+
+  .profile__submit-button {
+    width: 260px;
+  }
+
+  .profile__edit-button {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 379px auto 0;
+  }
+
+  .profile__exit-button {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
