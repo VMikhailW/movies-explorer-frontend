@@ -6,7 +6,7 @@ const checkResponse = (result) => {
 }
 
 export const getMovies = () => {
-  return fetch('https://bd-diplom.nomoredomains.club', {
+  return fetch('http://bd-diplom.nomoredomains.club', {
     method: 'GET',
     headers : {
       'Content-Type': 'application/json',
