@@ -1,4 +1,4 @@
-const BASE_URL = 'http://bd-diplom.nomoredomains.club';
+const BASE_URL = 'https://bd-diplom.nomoredomains.club';
 
 async function checkResponse (result) {
   const res = await result.json();
