@@ -39,7 +39,6 @@
 # Дипломная работа (Frontend)
 
 
- 
 🔗Домен сервера -   https://FD-diplom.nomoredomains.club
 
 🔗Домен сервера -   http://FD-diplom.nomoredomains.club
