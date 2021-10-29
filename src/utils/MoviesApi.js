@@ -6,7 +6,7 @@ const checkResponse = (result) => {
 }
 
 export const getMovies = () => {
-  return fetch('https://bd-diplom.nomoredomains.club', {
+  return fetch('https://api.nomoreparties.co/beatfilm-movies', {
     method: 'GET',
     headers : {
       'Content-Type': 'application/json',
