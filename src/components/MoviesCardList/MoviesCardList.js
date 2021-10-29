@@ -21,7 +21,7 @@ export default function MoviesCardList(props) {
     <section className='movies-card-list'>
       { props.moviesList.length === 0 ?
         <p className='movies-card-list__not-found'>
-         Ничего не найдено
+          {props.resultBlockText}
         </p> :
         <div className='movies-card-list__container' >
           {
