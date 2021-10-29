@@ -10,7 +10,8 @@ export default function SearchForm(props) {
           }} >
         <input
           className='search-form__input'
-          placeholder='Фильмы'
+          placeholder='Фильм'
+          required
           value={props.inputWord}
           onChange={(evt) => props.setInputWord(evt.target.value)}/>
         <button
