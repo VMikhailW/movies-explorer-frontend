@@ -18,7 +18,7 @@
   line-height: 34px;
   color: #000;
   margin: 0 auto;
-  width: max-content;
+  max-width: max-content;
 }
 
 .movies-card-list__more-button {
